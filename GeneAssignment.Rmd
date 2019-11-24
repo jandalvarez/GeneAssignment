@@ -44,5 +44,25 @@ SeqI.matrix <- data.matrix(SeqI)
 
 SeqI.heatmap <- heatmap(SeqI.matrix)
 
+# jpeg('Q7 Heatmap.jpeg', width = 550, height = 500)
+# heatmap(SeqI.matrix)
+# dev.off()
+
+# win.metafile('Q7 Heatmap.wmf', width = 15, height = 15)
+# heatmap(SeqI.matrix)
+# dev.off()
+
 ```
+
+
+
+`install.packages("gplots")`
+`library(gplots)`
+```{r}
+# heatmap.2(SeqI.matrix)
+```
+
+
+
+
 
