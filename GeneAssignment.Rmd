@@ -16,9 +16,15 @@ Read FASTA file into R. Install 1st then call library to make use of `read.fasta
 
 
 ```{r}
-read.fasta("Q5 MultiSeq Alignment.fa")
+MSA <- read.fasta("Q5 MultiSeq Alignment.fa")
 
 ```
 
 
+
+Calculating sequence identity 
+
+```{r}
+seqidentity(MSA, normalize=TRUE, similarity=FALSE, ncore=1, nseg.scale=1)
+```
 
