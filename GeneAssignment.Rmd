@@ -1,0 +1,24 @@
+---
+title: "Find A Gene PT 2"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+Read FASTA file into R. Install 1st then call library to make use of `read.fasta()` function.
+
+`install.packages("bio3d")`
+
+`library(bio3d)`
+
+
+```{r}
+read.fasta("Q5 MultiSeq Alignment.fa")
+
+```
+
+
+
