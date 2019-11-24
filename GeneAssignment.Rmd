@@ -16,7 +16,7 @@ Read FASTA file into R. Install 1st then call library to make use of `read.fasta
 
 
 ```{r}
-MSA <- read.fasta("Q5 MultiSeq Alignment Renamed.fa.txt")
+MSA <- read.fasta("Q5 MultiSeq Alignment Renamed2.fa.txt")
 
 MSA
 
