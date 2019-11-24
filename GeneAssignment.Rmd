@@ -63,6 +63,55 @@ SeqI.heatmap <- heatmap(SeqI.matrix, margins = c(7.8,5))
 ```
 
 
+Searching main protein structure database. 
+
+Creating consensus sequence 1st to see if it makes things easier.
+**`What output does this give us??`**
+
+```{r}
+cseq <- consensus(MSA)
+
+
+```
+ 
+
+```{r}
+blast.pdb(MSA)
+
+```
+
+
+`How do we use pdb.annotate()`
+
+```{r}
+pdb.annotate()
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
