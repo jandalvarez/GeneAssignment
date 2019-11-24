@@ -16,7 +16,7 @@ Read FASTA file into R. Install 1st then call library to make use of `read.fasta
 
 
 ```{r}
-MSA <- read.fasta("Q5 MultiSeq Alignment.fa")
+MSA <- read.fasta("Q5 MultiSeq Alignment Renamed.fa.txt")
 
 MSA
 
@@ -42,7 +42,7 @@ Making `heatmap`; want to use `seqidentity` results to do this
 
 SeqI.matrix <- data.matrix(SeqI)
 
-SeqI.heatmap <- heatmap(SeqI.matrix)
+SeqI.heatmap <- heatmap(SeqI.matrix, margins = c(7.8,5))
 
 # jpeg('Q7 Heatmap.jpeg', width = 550, height = 500)
 # heatmap(SeqI.matrix)
